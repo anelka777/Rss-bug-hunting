@@ -36,8 +36,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 0;
+  justify-content: center;
+  gap: 20px;
   max-width: 1000px;
   margin: 0 auto;
 }

@@ -38,7 +38,7 @@ function addToCart(id) {
   const existing = cart.find((i) => i.id === id);
   if (existing) {
     existing.qty++;
-    } else {
+  } else {
     cart.push({ id: product.id, name: product.name, price: product.price, qty: 1 });
   }
   renderCart();
@@ -70,7 +70,6 @@ function applyPromo() {
     discount = 0;
   }
   renderCart();
-
 }
 
 function clearCart() {
